@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding: 5px;
+}
+
+#home{
+    background-color:black;
+    color:white;
+}
+#port{
+    font-size: 30px;
+    color: white;
+}
+
+#header{
+    display:flex;
+    color:white;
+    background-color:black;
+}
+a:link,a:visited{
+    color:white;
+    text-decoration: none;
+}
+#nav{
+    display:flex;
+    justify-content: end;
+    border:1px;
+    padding:5px; 
+    margin-left:600px;
+}
+a:hover{
+    color:yellow;
+}
+#content{
+    font-size: larger;
+    line-height: 40px;
+    font-weight: bolder;
+}
+.edu{
+    height:70%;
+    background-color: black;
+    color:white;
+}
+#contact{
+    background-color:black;
+    color:white;
+}
+#Tictactoe a,#weatherapp a,#stopwatch a{
+    color:#666;
+}
+#skills{
+    background-color: black;
+    color:white;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px;
+  }
+  
+  .skill {
+    text-align: center;
+  }
+  .skill h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .skill p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+  #footer{
+    background-color: black;
+    color:white;
+}
+  
